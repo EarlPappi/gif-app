@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(119, 119, 119, 0.226);
+    padding: 30px;
+}
+
+.header-con{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-con h1{
+    font-size: 5em;
+}
+
+.header-con input{
+    width: 60%;
+    padding: 10px;
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+}
+
+
+.header-con button{
+    border: none;
+    outline: none;
+    /* width: 60%; */
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+
+.header-con input:active, .header-con input:focus{
+    outline: none;
+    transform: scale(110%);
+}
+
+.header-con input:hover{
+    transform: scale(110%);
+}
+
+.header-con button:hover{
+    background-color: black;
+    color: white;
+}
+
+#resultCon{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.resultChild{
+    height: fit-content;
+    background: url(../SrpKihiQ.jpeg) no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+}

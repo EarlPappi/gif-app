@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -73,8 +74,9 @@ body{
 
 .resultChild{
     height: fit-content;
-    background: url(../SrpKihiQ.jpeg) no-repeat;
+    /* background: url(../SrpKihiQ.jpeg) no-repeat; */
     background-size: contain;
     height: 400px;
     width: 100%;
+    display: block;
 }

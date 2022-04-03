@@ -32,12 +32,15 @@ searchBtn.addEventListener('click', (e) => {
     const getData = fetchGif(userInput)
         .then(data => {
             // console.log(data.data.images)
+
+            resultCon.innerHTML = '';
+           
             data = data.data;
 
             for (let i = 0; i < data.length; i++) {
                 console.log(data[i].images.fixed_height.url);
 
-                // resultCon.innerHTML = '';
+                
 
                 var resultChild = document.createElement('img');
                 resultChild.classList.add('resultChild');
@@ -49,9 +52,9 @@ searchBtn.addEventListener('click', (e) => {
                 resultChild.src = img;
                 resultChild.href = img;
             };
-        });
+        }); 
 
-        getData();
+        
 
 
 });
